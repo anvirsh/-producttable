@@ -25,6 +25,6 @@ The Laravel framework and Vue.js and Inertia.js are open-sourced software licens
  -> php artisan migrate</br>
  -> php artisan db:seed</br>
  После чего проект можно просмотреть.</br>
- Сделан без регистрации/авторизации всего две страницы начальная и таблица продуктов.</br>
+ Сделан без регистрации/авторизации всего три страницы начальная,таблица продуктов и контакты.</br>
  Для изменения интерфейса потребуются (-> npm install) и после (-> npm run dev)</br>
 

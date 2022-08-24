@@ -1107,12 +1107,6 @@ select {
 .col-span-6 {
 	grid-column: span 6 / span 6;
 } 
-.m-8 {
-	margin: 2rem;
-} 
-.m-20 {
-	margin: 5rem;
-} 
 .mx-auto {
 	margin-left: auto;
 	margin-right: auto;
@@ -1222,6 +1216,12 @@ select {
 .mb-1 {
 	margin-bottom: 0.25rem;
 } 
+.mt-20 {
+	margin-top: 5rem;
+} 
+.ml-20 {
+	margin-left: 5rem;
+} 
 .ml-10 {
 	margin-left: 2.5rem;
 } 
@@ -1233,15 +1233,6 @@ select {
 } 
 .ml-auto {
 	margin-left: auto;
-} 
-.mt-20 {
-	margin-top: 5rem;
-} 
-.ml-20 {
-	margin-left: 5rem;
-} 
-.mt-40 {
-	margin-top: 10rem;
 } 
 .block {
 	display: block;
@@ -1741,9 +1732,6 @@ select {
 .p-8 {
 	padding: 2rem;
 } 
-.p-20 {
-	padding: 5rem;
-} 
 .px-4 {
 	padding-left: 1rem;
 	padding-right: 1rem;
@@ -1844,9 +1832,6 @@ select {
 .pl-1 {
 	padding-left: 0.25rem;
 } 
-.pr-0 {
-	padding-right: 0px;
-} 
 .pr-1 {
 	padding-right: 0.25rem;
 } 
@@ -1856,26 +1841,23 @@ select {
 .pl-10 {
 	padding-left: 2.5rem;
 } 
+.pt-20 {
+	padding-top: 5rem;
+} 
+.pl-20 {
+	padding-left: 5rem;
+} 
 .pr-6 {
 	padding-right: 1.5rem;
 } 
 .pr-10 {
 	padding-right: 2.5rem;
 } 
-.pl-20 {
-	padding-left: 5rem;
-} 
 .pt-10 {
 	padding-top: 2.5rem;
 } 
 .pb-2 {
 	padding-bottom: 0.5rem;
-} 
-.pt-20 {
-	padding-top: 5rem;
-} 
-.pt-40 {
-	padding-top: 10rem;
 } 
 .text-left {
 	text-align: left;
@@ -6122,10 +6104,6 @@ select {
 
 	.md\:pt-1 {
 		padding-top: 0.25rem;
-	}
-
-	.md\:pr-3 {
-		padding-right: 0.75rem;
 	}
 
 	.md\:pb-0 {
