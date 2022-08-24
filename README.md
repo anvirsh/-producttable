@@ -17,17 +17,7 @@
 
 The Laravel framework and Vue.js and Inertia.js are open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
   
-<<<<<<< HEAD
-   Установка.
- Сксчайте проект к себе  на компьютер архивом или склонировав.
- Установите зависимости.
- -> php composer install
- -> php artisan migrate
- -> php artisan db:seed
- После чего проект можно просмотреть.
- Сделан без регистрации/авторизации всего две страницы начальная и таблица продуктов.
- Для изменения интерфейса потребуются (-> npm install) и после (-> npm run dev)
-=======
+
    Установка.</br>
  Скачайте проект к себе  на компьютер архивом или склонировав. </br>
  Установите зависимости.</br>
@@ -37,4 +27,4 @@ The Laravel framework and Vue.js and Inertia.js are open-sourced software licens
  После чего проект можно просмотреть.</br>
  Сделан без регистрации/авторизации всего две страницы начальная и таблица продуктов.</br>
  Для изменения интерфейса потребуются (-> npm install) и после (-> npm run dev)</br>
->>>>>>> 47034e0595325f4f825210759193d6f43b7ee3d2
+
