@@ -4,6 +4,7 @@ use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\ContactsController;
 use App\Http\Controllers\StartController;
 use App\Http\Controllers\BaseController;
 
@@ -20,6 +21,7 @@ use App\Http\Controllers\BaseController;
 //Route::get('/', [DashboardController::class, 'start'])->name('start');
 Route::get('/',function () { return Inertia::render('Start'); })->name('start');
 Route::get('products', [DashboardController::class, 'index'])->name('products');
+Route::get('contacts', [ContactsController::class, 'index'])->name('contacts');
 //Route::resource('products', 'ProductsController');
 //Route::get('product/edit', [ProductController::class, 'index']);
 //Route::get('products/create', [ProductController::class, 'index']);
